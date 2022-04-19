@@ -1,0 +1,76 @@
+#footer{
+  height: 80px;
+  display: grid;   
+  grid-template-columns:  auto auto auto auto auto auto ;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+#header{
+  height: 80px;
+  background-color: pink; 
+}
+#parent{
+  height: 500px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button{
+  height: 40px;
+  width: 200px;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align:center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+#column{
+  position: relative;
+  height: 100px;
+  width: 150px;
+  border: 2px;
+  border-radius: 50px;
+  top: 30px;
+}
+#div1{
+  border-style: dotted;
+  height: 410px;
+  width: 210px;
+  border:5px solid pink;
+}
+#div2{
+  border-style: dotted;
+  height: 270px;
+  width: 190px;
+  border:5px solid pink;
+}
+#box{
+  display: flex;
+  display: table-row;
+}
+
+#law{
+  width: 40px;
+  margin: auto;
+}
+td{
+  justify-content: right;
+}
+
+
